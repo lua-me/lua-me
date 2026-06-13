@@ -17,7 +17,7 @@ local Table = {
 
     Profile = {
         Version = {{RUNTIME.VERSION}},
-        LastUpdated = "{{RUNTIME.LAST_UPDATED}},
+        LastUpdated = {{RUNTIME.LAST_UPDATED}},
     },
 }
 
