@@ -18,8 +18,8 @@ local Table = {
     },
 
     Profile = {
-        Version = 18d7996,
-        LastUpdated = Sat, 13 Jun 2026 10:16:05 GMT,
+        Version = de16e7a,
+        LastUpdated = Sat, 13 Jun 2026 10:16:15 GMT,
     },
 }
 
