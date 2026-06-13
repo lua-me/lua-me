@@ -2,24 +2,22 @@
 local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
-        Name = "you",
-        Status = "Online",
+        Name = {{MISSING:USER.NAME_LUA}},
+        Status = {{MISSING:USER.STATUS_LUA}},
     },
 
     GitHub = {
-        Followers = 0,
-        Following = 0,
+        Followers = {{MISSING:GITHUB.FOLLOWERS_LUA}},
+        Following = {{MISSING:GITHUB.FOLLOWING_LUA}},
         Repositories = {
-            Total = 1,
-            Top = {
-        [1] = { Name = "lua-me", Stars = 0, Url = "https://github.com/lua-me/lua-me" }
-    }
+            Total = {{MISSING:GITHUB.PUBLIC_REPOS_LUA}},
+            Top = {{MISSING:GITHUB.TOP_REPOS_LUA}}
         }
     },
 
     Profile = {
-        Version = "12ae87e",
-        LastUpdated = "Sat, 13 Jun 2026 10:18:37 GMT",
+        Version = {{MISSING:RUNTIME.VERSION_LUA}},
+        LastUpdated = {{MISSING:RUNTIME.LAST_UPDATED_LUA}},
     },
 }
 
@@ -28,5 +26,5 @@ print("Serialized README:", Encoded)
 ```
 
 <p align="center">
-  <b>Views:</b> <code>![views](https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me)</code>
+  <b>Views:</b> <code>https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me</code>
 </p>
