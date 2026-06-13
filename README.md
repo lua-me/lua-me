@@ -1,9 +1,17 @@
+<!-- TEMPLATE.md — edit this, never README.md directly -->
+
+## you
+
+| # | Repo | Stars | Language |
+|---|------|-------|----------|
+| 1 | [lua-me](https://github.com/lua-me/lua-me) | ⭐ 0 | — |
+
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
-        Name = you,
-        Status = Online,
+        Name = "you",
+        Status = "Online",
     },
 
     GitHub = {
@@ -11,15 +19,15 @@ local Table = {
         Following = 0,
         Repositories = {
             Total = 1,
-            Top = | # | Repo | Stars | Language |
-|---|------|-------|----------|
-| 1 | [lua-me](https://github.com/lua-me/lua-me) | ⭐ 0 | — |
+            Top = {
+        [1] = { Name = "lua-me", Stars = 0, Url = "https://github.com/lua-me/lua-me" }
+    }
         }
     },
 
     Profile = {
-        Version = bf37140,
-        LastUpdated = Sat, 13 Jun 2026 10:16:17 GMT,
+        Version = "86c2662",
+        LastUpdated = "Sat, 13 Jun 2026 10:17:59 GMT",
     },
 }
 
