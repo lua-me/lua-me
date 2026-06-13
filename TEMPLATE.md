@@ -1,3 +1,7 @@
+<!-- TEMPLATE.md -->
+
+## {{USER.NAME}}
+
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
@@ -5,7 +9,6 @@ local Table = {
         Name = {{USER.NAME}},
         Status = {{USER.STATUS}},
     },
-
     GitHub = {
         Followers = {{GITHUB.FOLLOWERS}},
         Following = {{GITHUB.FOLLOWING}},
@@ -14,17 +17,15 @@ local Table = {
             Top = {{GITHUB.TOP_REPOS}}
         }
     },
-
     Profile = {
         Version = {{RUNTIME.VERSION}},
         LastUpdated = {{RUNTIME.LAST_UPDATED}},
     },
 }
-
 local Encoded = HttpService:JSONEncode(Table)
 print("Serialized README:", Encoded)
 ```
 
 <p align="center">
-  <b>Views:</b> <code>{{USER.VIEWS}}</code>
+  <b>Views:</b> <img src="{{USER.VIEWS}}" alt="profile views" />
 </p>
