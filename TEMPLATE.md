@@ -1,9 +1,3 @@
-<!-- TEMPLATE.md — edit this, never README.md directly -->
-
-## {{USER.NAME}}
-
-{{GITHUB.TOP_REPOS}}
-
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
