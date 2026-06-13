@@ -9,13 +9,9 @@ local Table = {
         Followers = {{GITHUB.FOLLOWERS}},
         Following = {{GITHUB.FOLLOWING}},
         Repositories = {
-            Top = {
-                {{GITHUB.REPO_TOP_1}},
-                {{GITHUB.REPO_TOP_2}},
-                {{GITHUB.REPO_TOP_3}},
-    },
-    More = "{{GITHUB.PUBLIC_REPOS}}+"
-}
+            Total = {{GITHUB.PUBLIC_REPOS}},
+            Top = {{GITHUB.TOP_REPOS}}
+        }
     },
     Runtime = {
         Version = "{{RUNTIME.VERSION}}",
