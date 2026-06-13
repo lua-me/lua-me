@@ -13,7 +13,7 @@ local Table = {
             Top = {{GITHUB.TOP_REPOS}}
         }
     },
-    Runtime = {
+    Profile = {
         Version = {{RUNTIME.VERSION}},
         LastUpdated = {{RUNTIME.LAST_UPDATED}},
     },
