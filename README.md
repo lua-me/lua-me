@@ -1,7 +1,3 @@
-<!-- TEMPLATE.md -->
-
-## "you"
-
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
