@@ -1,8 +1,4 @@
-<!-- TEMPLATE.md -->
-
 ## {{USER.NAME}}
-
-{{GITHUB.TOP_REPOS_MD}}
 
 ```luau
 local HttpService = game:GetService("HttpService")
