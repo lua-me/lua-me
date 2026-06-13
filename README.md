@@ -1,10 +1,4 @@
-<!-- TEMPLATE.md -->
-
 ## "you"
-
-| # | Repository | Stars | Language |
-|---|------------|-------|----------|
-| 1 | [lua-me](https://github.com/lua-me/lua-me) | ⭐ 0 | — |
 
 ```luau
 local HttpService = game:GetService("HttpService")
@@ -24,8 +18,8 @@ local Table = {
         }
     },
     Profile = {
-        Version = "20d0534",
-        LastUpdated = "Sat, 13 Jun 2026 10:32:30 GMT",
+        Version = "b39539f",
+        LastUpdated = "Sat, 13 Jun 2026 10:33:09 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
