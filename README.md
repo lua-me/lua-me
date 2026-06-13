@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
         Name = you,
-        Status = ,
+        Status = Online,
     },
 
     GitHub = {
@@ -11,13 +11,15 @@ local Table = {
         Following = 0,
         Repositories = {
             Total = 1,
-            Top = - [lua-me](https://github.com/lua-me/lua-me) — ⭐ 0
+            Top = | # | Repo | Stars | Language |
+|---|------|-------|----------|
+| 1 | [lua-me](https://github.com/lua-me/lua-me) | ⭐ 0 | — |
         }
     },
 
     Profile = {
-        Version = 1.0.0,
-        LastUpdated = Sat, 13 Jun 2026 10:10:29 GMT,
+        Version = 18d7996,
+        LastUpdated = Sat, 13 Jun 2026 10:16:05 GMT,
     },
 }
 
