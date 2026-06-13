@@ -2,6 +2,10 @@
 
 ## "you"
 
+| # | Repository | Stars | Language |
+|---|------------|-------|----------|
+| 1 | [lua-me](https://github.com/lua-me/lua-me) | ⭐ 0 | — |
+
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
@@ -14,18 +18,18 @@ local Table = {
         Following = 0,
         Repositories = {
             Total = 1,
-            Top = {{MISSING:GITHUB.TOP_REPOS}}
+            Top = {
+                [1] = { Name = "lua-me", Stars = 0, Url = "https://github.com/lua-me/lua-me" }
+            }
         }
     },
     Profile = {
-        Version = "56b8efe",
-        LastUpdated = "Sat, 13 Jun 2026 10:31:19 GMT",
+        Version = "caa745a",
+        LastUpdated = "Sat, 13 Jun 2026 10:32:28 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
 print("Serialized README:", Encoded)
 ```
 
-<p align="center">
-  <b>Views:</b> <img src="https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me" alt="profile views" />
-</p>
+Views: https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me
