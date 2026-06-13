@@ -2,8 +2,8 @@
 local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
-        Name = "{{USER.NAME}}",
-        Status = "{{USER.STATUS}}",
+        Name = {{USER.NAME}},
+        Status = {{USER.STATUS}},
     },
     GitHub = {
         Followers = {{GITHUB.FOLLOWERS}},
@@ -14,8 +14,8 @@ local Table = {
         }
     },
     Runtime = {
-        Version = "{{RUNTIME.VERSION}}",
-        LastUpdated = "{{RUNTIME.LAST_UPDATED}}",
+        Version = {{RUNTIME.VERSION}},
+        LastUpdated = {{RUNTIME.LAST_UPDATED}},
     },
 }
 
