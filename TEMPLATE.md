@@ -1,23 +1,29 @@
+<!-- TEMPLATE.md — edit this, never README.md directly -->
+
+## {{USER.NAME}}
+
+{{GITHUB.TOP_REPOS}}
+
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
-        Name = {{USER.NAME}},
-        Status = {{USER.STATUS}},
+        Name = {{USER.NAME_LUA}},
+        Status = {{USER.STATUS_LUA}},
     },
 
     GitHub = {
-        Followers = {{GITHUB.FOLLOWERS}},
-        Following = {{GITHUB.FOLLOWING}},
+        Followers = {{GITHUB.FOLLOWERS_LUA}},
+        Following = {{GITHUB.FOLLOWING_LUA}},
         Repositories = {
-            Total = {{GITHUB.PUBLIC_REPOS}},
-            Top = {{GITHUB.TOP_REPOS}}
+            Total = {{GITHUB.PUBLIC_REPOS_LUA}},
+            Top = {{GITHUB.TOP_REPOS_LUA}}
         }
     },
 
     Profile = {
-        Version = {{RUNTIME.VERSION}},
-        LastUpdated = {{RUNTIME.LAST_UPDATED}},
+        Version = {{RUNTIME.VERSION_LUA}},
+        LastUpdated = {{RUNTIME.LAST_UPDATED_LUA}},
     },
 }
 
