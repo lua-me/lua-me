@@ -1,5 +1,3 @@
-## {{USER.NAME}}
-
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
@@ -26,4 +24,6 @@ local Encoded = HttpService:JSONEncode(Table)
 print("Serialized README:", Encoded)
 ```
 
-Views: {{USER.VIEWS}}
+<p align="center">
+  <b>Views:</b> <code>{{USER.VIEWS}}</code>
+</p>
