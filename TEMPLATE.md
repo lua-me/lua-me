@@ -2,22 +2,22 @@
 local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
-        Name = {{USER.NAME_LUA}},
-        Status = {{USER.STATUS_LUA}},
+        Name = {{USER.NAME}},
+        Status = {{USER.STATUS}},
     },
 
     GitHub = {
-        Followers = {{GITHUB.FOLLOWERS_LUA}},
-        Following = {{GITHUB.FOLLOWING_LUA}},
+        Followers = {{GITHUB.FOLLOWERS}},
+        Following = {{GITHUB.FOLLOWING}},
         Repositories = {
-            Total = {{GITHUB.PUBLIC_REPOS_LUA}},
-            Top = {{GITHUB.TOP_REPOS_LUA}}
+            Total = {{GITHUB.PUBLIC_REPOS}},
+            Top = {{GITHUB.TOP_REPOS}}
         }
     },
 
     Profile = {
-        Version = {{RUNTIME.VERSION_LUA}},
-        LastUpdated = {{RUNTIME.LAST_UPDATED_LUA}},
+        Version = {{RUNTIME.VERSION}},
+        LastUpdated = {{RUNTIME.LAST_UPDATED}},
     },
 }
 
