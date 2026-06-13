@@ -1,3 +1,7 @@
+<!-- TEMPLATE.md -->
+
+## "you"
+
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
@@ -10,14 +14,12 @@ local Table = {
         Following = 0,
         Repositories = {
             Total = 1,
-            Top = {
-            [1] = { Name = "lua-me", Stars = 0, Url = "https://github.com/lua-me/lua-me" }
-        }
+            Top = {{MISSING:GITHUB.TOP_REPOS}}
         }
     },
     Profile = {
-        Version = "4782a4b",
-        LastUpdated = "Sat, 13 Jun 2026 10:24:40 GMT",
+        Version = "56b8efe",
+        LastUpdated = "Sat, 13 Jun 2026 10:31:19 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
