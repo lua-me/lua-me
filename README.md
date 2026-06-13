@@ -3,24 +3,20 @@ local HttpService = game:GetService("HttpService")
 
 local Data = {
     UserInfo = {
-        Username = "{{USER_NAME}}",
-        Status = "{{USER_STATUS}}",
+        Username = "{{USER_NAME}}" :: string,
+        Status = "{{USER_STATUS}}" :: string,
     },
-
     RepoInfo = {
-        Name = "{{REPO_NAME}}",
-        Views = {{REPO_VIEWS}},
+        Name = "{{REPO_NAME}}" :: string,
+        Views = {{REPO_VIEWS}} :: number,
     },
-
     RuntimeInfo = {
-        Version = "{{_VERSION}}",
-        LastUpdated = "{{_LAST_UPDATED}}",
+        Version = "{{_VERSION}}" :: string,
+        LastUpdated = "{{_LAST_UPDATED}}" :: string,
     },
 }
 
-local encoded = HttpService:JSONEncode(Data)
-
-print("Results:", encoded)
+print(HttpService:JSONEncode(Data))
 ```
 
 <p align="center">
