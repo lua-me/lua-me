@@ -1,5 +1,3 @@
-## "you"
-
 ```luau
 local HttpService = game:GetService("HttpService")
 local Table = {
@@ -18,12 +16,14 @@ local Table = {
         }
     },
     Profile = {
-        Version = "64e7626",
-        LastUpdated = "Sat, 13 Jun 2026 10:33:10 GMT",
+        Version = "61b7308",
+        LastUpdated = "Sat, 13 Jun 2026 10:34:50 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
 print("Serialized README:", Encoded)
 ```
 
-Views: https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me
+<p align="center">
+  <b>Views:</b> <code>https://visitor-badge.laobi.icu/badge?page_id=lua-me.lua-me</code>
+</p>
