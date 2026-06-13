@@ -1,25 +1,32 @@
 ```luau
 local HttpService = game:GetService("HttpService")
-
-local Data = {
-    UserInfo = {
-        Username = "{{USER_NAME}}" :: string,
-        Status = "{{USER_STATUS}}" :: string,
+local Table = {
+    User = {
+        Name = "{{USER.NAME}}",
+        Status = "{{USER.STATUS}}",
     },
-    RepoInfo = {
-        Name = "{{REPO_NAME}}" :: string,
-        Views = {{REPO_VIEWS}} :: number,
+    GitHub = {
+        Followers = {{GITHUB.FOLLOWERS}},
+        Following = {{GITHUB.FOLLOWING}},
+        Repositories = {
+            Top = {
+                {{GITHUB.REPO_TOP_1}},
+                {{GITHUB.REPO_TOP_2}},
+                {{GITHUB.REPO_TOP_3}},
     },
-    RuntimeInfo = {
-        Version = "{{_VERSION}}" :: string,
-        LastUpdated = "{{_LAST_UPDATED}}" :: string,
+    More = "{{GITHUB.PUBLIC_REPOS}}+"
+}
+    },
+    Runtime = {
+        Version = "{{RUNTIME.VERSION}}",
+        LastUpdated = "{{RUNTIME.LAST_UPDATED}}",
     },
 }
 
-print(HttpService:JSONEncode(Data))
+local Encoded = HttpService:JSONEncode(Table)
+print("Serialized README:", Encoded)
 ```
 
 <p align="center">
-  <strong>👀 Repository Views</strong><br>
-  <code>0</code>
+  <b>Views:</b> <code>{{USER.VIEWS}}</code>
 </p>
