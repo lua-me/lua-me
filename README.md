@@ -1,16 +1,23 @@
-## Hi there 👋
+```luau
+local HttpService = game:GetService("HttpService")
+local Table = {
+    UserInfo = {
+        Username = "{{USER_NAME}}",
+        Status = "{{USER_STATUS}}",
+    },
+    RepoInfo = {
+        Name = {{REPO_NAME}},
+        Views = {{REPO_VIEWS}},
+    },
+    RuntimeInfo = {
+        Version = "{{_VERSION}}",
+        LastUpdated = "{{_LAST_UPDATED}}",
+    }
+}
+local Encoded = HttpService:JSONEncode(Table)
+print("Results:", Encoded)
+```
 
-<!--
-**lua-me/lua-me** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <b>Views:</b> <code>0</code>
+</p>
