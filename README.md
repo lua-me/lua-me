@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local Table = {
     User = {
         Name = "you",
-        Status = "Online",
+        Status = "Offline",
     },
     GitHub = {
         Followers = 0,
@@ -16,8 +16,8 @@ local Table = {
         }
     },
     Profile = {
-        Version = "dbc9fe6",
-        LastUpdated = "Mon, 15 Jun 2026 20:43:16 GMT",
+        Version = "8ebd39d",
+        LastUpdated = "Mon, 15 Jun 2026 23:11:44 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
