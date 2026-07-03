@@ -16,8 +16,8 @@ local Table = {
         }
     },
     Profile = {
-        Version = "7e0c88b",
-        LastUpdated = "Fri, 03 Jul 2026 08:17:32 GMT",
+        Version = "18e68a7",
+        LastUpdated = "Fri, 03 Jul 2026 10:41:20 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
