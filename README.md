@@ -6,7 +6,7 @@ local Table = {
         Status = "Offline",
     },
     GitHub = {
-        Followers = 0,
+        Followers = 1,
         Following = 0,
         Repositories = {
             Total = 1,
@@ -16,8 +16,8 @@ local Table = {
         }
     },
     Profile = {
-        Version = "7f715e2",
-        LastUpdated = "Sun, 09 Aug 2026 16:55:37 GMT",
+        Version = "9db8270",
+        LastUpdated = "Fri, 25 Sep 2026 02:23:56 GMT",
     },
 }
 local Encoded = HttpService:JSONEncode(Table)
